@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<block wx:for="{{list}}" wx:key="name">
+  <view>{{item.title}}</view>
+  <text>{{item.city}}</text>
+  <view>
+    <text>{{item.marketing_start}}</text>
+  </view>
+  <view>{{item.stock_num}}</view>
+  <view>{{item.price}}</view>
+  <image src='{{item.img}}'></image>
+</block>
